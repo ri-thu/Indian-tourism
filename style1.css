@@ -1,0 +1,44 @@
+body {
+    background-color: darkolivegreen;
+    margin: 0;
+    padding-top: 70px;
+}
+.card {
+    width: 18rem;  /* Fixed width */
+    height: 24rem; /* Fixed height */
+}
+.card-img-top {
+    width: 100%; /* Makes sure the image spans the full width of the card */
+    height: 200px; /* Adjust this value as needed */
+    object-fit: cover; /* Ensures the image fills the space without distortion, cropping if necessary */
+}
+
+.navbar-custom {
+    background-color: darkolivegreen;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link
+{
+    color: gainsboro;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link.active {
+    color: gainsboro;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link:hover {
+    color: white;
+}
+
+.card{
+    cursor: pointer;
+}

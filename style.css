@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding-top: 70px;
+}
+
+.navbar-custom {
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link
+{
+    color: gainsboro;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link.active {
+    color: gainsboro;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link:hover {
+    color: white;
+}
+.blockquote
+{
+    position:fixed;
+    top:70px;
+    left: 30px;;
+}
+.blockquote-footer{
+    position: fixed;
+    top:120px;
+    left:150px;
+
+}
