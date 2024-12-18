@@ -1,11 +1,5 @@
-body {
-    background-color: black;
-    margin: 0;
-    padding-top: 70px;
-}
-
 .navbar-custom {
-    background-color: black;
+    background-color: darkolivegreen;
     position: fixed; 
     top: 0;
     left: 0; 
@@ -28,19 +22,4 @@ body {
 
 .navbar-custom .nav-link:hover {
     color: white;
-}
-.blockquote
-{
-    position:fixed;
-    top:200px;
-    left: 30px;;
-}
-.blockquote-footer{
-    position: fixed;
-    top: 250px;
-    left:180px;
-
-}
-.body-para{
-    color: gainsboro;
 }
